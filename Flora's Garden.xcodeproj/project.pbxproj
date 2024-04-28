@@ -8,12 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		CC040C542AE1407600D4D2D6 /* Flora_s_GardenApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC040C532AE1407600D4D2D6 /* Flora_s_GardenApp.swift */; };
-		CC040C562AE1407600D4D2D6 /* GardenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC040C552AE1407600D4D2D6 /* GardenView.swift */; };
 		CC040C582AE1407700D4D2D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC040C572AE1407700D4D2D6 /* Assets.xcassets */; };
 		CC040C5B2AE1407700D4D2D6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC040C5A2AE1407700D4D2D6 /* Preview Assets.xcassets */; };
 		CC040C622AE1414E00D4D2D6 /* MainMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC040C612AE1414E00D4D2D6 /* MainMenuView.swift */; };
 		CC040C642AE2879C00D4D2D6 /* CreditsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC040C632AE2879C00D4D2D6 /* CreditsView.swift */; };
-		CC040C662AE289AA00D4D2D6 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC040C652AE289AA00D4D2D6 /* SettingsView.swift */; };
 		CC262DDA2AEED86C008F8569 /* kitchenItem Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC262DD92AEED86C008F8569 /* kitchenItem Model.swift */; };
 		CC262DDC2AEED98F008F8569 /* kitchenItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC262DDB2AEED98F008F8569 /* kitchenItemViewModel.swift */; };
 		CCF3632B2AE67C1600362C5D /* KitchenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF3632A2AE67C1600362C5D /* KitchenView.swift */; };
@@ -22,12 +20,10 @@
 /* Begin PBXFileReference section */
 		CC040C502AE1407600D4D2D6 /* Flora's Garden.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Flora's Garden.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC040C532AE1407600D4D2D6 /* Flora_s_GardenApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flora_s_GardenApp.swift; sourceTree = "<group>"; };
-		CC040C552AE1407600D4D2D6 /* GardenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GardenView.swift; sourceTree = "<group>"; };
 		CC040C572AE1407700D4D2D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CC040C5A2AE1407700D4D2D6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CC040C612AE1414E00D4D2D6 /* MainMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuView.swift; sourceTree = "<group>"; };
 		CC040C632AE2879C00D4D2D6 /* CreditsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditsView.swift; sourceTree = "<group>"; };
-		CC040C652AE289AA00D4D2D6 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		CC262DD92AEED86C008F8569 /* kitchenItem Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "kitchenItem Model.swift"; sourceTree = "<group>"; };
 		CC262DDB2AEED98F008F8569 /* kitchenItemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kitchenItemViewModel.swift; sourceTree = "<group>"; };
 		CCF3632A2AE67C1600362C5D /* KitchenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KitchenView.swift; sourceTree = "<group>"; };
@@ -65,8 +61,6 @@
 			children = (
 				CC040C532AE1407600D4D2D6 /* Flora_s_GardenApp.swift */,
 				CC040C612AE1414E00D4D2D6 /* MainMenuView.swift */,
-				CC040C552AE1407600D4D2D6 /* GardenView.swift */,
-				CC040C652AE289AA00D4D2D6 /* SettingsView.swift */,
 				CC040C632AE2879C00D4D2D6 /* CreditsView.swift */,
 				CCF3632A2AE67C1600362C5D /* KitchenView.swift */,
 				CC040C572AE1407700D4D2D6 /* Assets.xcassets */,
@@ -155,13 +149,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CC040C662AE289AA00D4D2D6 /* SettingsView.swift in Sources */,
 				CC262DDA2AEED86C008F8569 /* kitchenItem Model.swift in Sources */,
 				CC040C622AE1414E00D4D2D6 /* MainMenuView.swift in Sources */,
 				CCF3632B2AE67C1600362C5D /* KitchenView.swift in Sources */,
 				CC040C642AE2879C00D4D2D6 /* CreditsView.swift in Sources */,
 				CC262DDC2AEED98F008F8569 /* kitchenItemViewModel.swift in Sources */,
-				CC040C562AE1407600D4D2D6 /* GardenView.swift in Sources */,
 				CC040C542AE1407600D4D2D6 /* Flora_s_GardenApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
