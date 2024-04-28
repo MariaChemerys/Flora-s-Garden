@@ -28,119 +28,43 @@ struct MainMenuView: View {
                         .resizable()
                         .zIndex(2)
                         .padding(10)
-                        .position(CGPoint(x: 400, y: 380))
-                        .frame(width: 800, height: 840)
+                        .position(CGPoint(x: 350, y: -70))
+                        .frame(width: 700, height: 110)
                     
-                    // Navigation links to other views
-                    HStack {
-                        NavigationLink(destination: GardenView(), label:{
-                            Text("")
-                                .position(CGPoint(x: 60,y: 0))
-                                .frame(width: 100, height: 47)
-                        })
-                        .background(
-                            RoundedRectangle(cornerRadius: 10)
-                                .frame(width: 90, height: 42)
-                                .foregroundColor(Color.clear))
-                        .position(CGPoint(x: 410, y: 287))
-                        
-                        NavigationLink(destination: SettingsView(), label:{
-                            Text("")
-                                .position(CGPoint(x: 60,y: 0))
-                                .frame(width: 100, height: 47)
-                        })
-                        .background(
-                            RoundedRectangle(cornerRadius: 10)
-                                .frame(width: 90, height: 42)
-                                .foregroundColor(Color.clear))
-                        .position(CGPoint(x: 200, y: 287))
-                        
-                        NavigationLink(destination: CreditsView(), label:{
-                            Text("")
-                                .position(CGPoint(x: 60,y: 0))
-                                .frame(width: 100, height: 47)
-                        })
-                        .background(
-                            RoundedRectangle(cornerRadius: 10)
-                                .frame(width: 90, height: 42)
-                                .foregroundColor(Color.clear))
-                        .position(CGPoint(x: -9, y: 287))
-                        
-                    }.zIndex(3)
-                        .contentShape(Rectangle())
-                    
+                    // Navigation link to credits view
+                    NavigationLink(destination: CreditsView(), label:{
+                        Text("")
+                            .position(CGPoint(x: 60,y: 0))
+                            .frame(width: 100, height: 47)
+                    })
+                    .background(
+                        RoundedRectangle(cornerRadius: 10)
+                            .frame(width: 110, height: 50)
+                            .foregroundColor(Color.clear))
+                    .position(CGPoint(x: 520, y: 110))
+                    .zIndex(3)
                 }
                 
-//                ZStack{
-//                    Image("home button")
-//                        .resizable()
-//                        .frame(width: 200, height: 130)
-//                        .position(CGPoint(x: 460, y: 410))
-//                    VStack {
-//                        Button(action: {
-//                            self.isLanguageOneTapped = true
-//                            self.isLanguageTwoTapped = false
-//                        }) {
-//                            Image(systemName: "globe")
-//                                .resizable()
-//                                .frame(width: 30, height: 30)
-//                                .padding(5)
-//                                .foregroundColor(.white)
-//                            
-//                            Text("English")
-//                                .foregroundColor(.white)
-//                                .font(.system(size: 32))
-//                                .padding(3)
-//                        }
-//                        .background((isLanguageOneTapped && (isLanguageTwoTapped == false)) ? Color("LightBrownHighOpacity") : Color("LightBrownLowOpacity"))
-//                        .cornerRadius(70)
-//                        .frame(width: 600, height: 70)
-//                        .position(CGPoint(x: 459, y: 385))
-//                        
-//                        Button(action: {
-//                            self.isLanguageTwoTapped = true
-//                            self.isLanguageOneTapped = false
-//                        }) {
-//                            Image(systemName: "globe")
-//                                .resizable()
-//                                .frame(width: 30, height: 30)
-//                                .padding(5)
-//                                .foregroundColor(.white)
-//                            
-//                            Text("Italiano")
-//                                .foregroundColor(.white)
-//                                .font(.system(size: 32))
-//                                .padding(3)
-//                        }
-//                        .background((isLanguageTwoTapped && (isLanguageOneTapped == false)) ? Color("LightBrownHighOpacity") : Color("LightBrownLowOpacity"))
-//                        .cornerRadius(70)
-//                        .frame(width: 600, height: 70)
-//                        .position(CGPoint(x: 459, y: 10))
-//                    }.zIndex(4)
-//                }
-                // Main play button
-                
+                // Play button
                 ZStack {
                     Image("main play button")
                         .resizable()
                         .frame(width: 188, height: 121)
                         .zIndex(1)
-                        .position(CGPoint(x: 465, y: 450))
+                        .position(CGPoint(x: 465, y: 250))
                     
                     
-                        NavigationLink(destination: KitchenView(), label:{
-                            Text("")
-                                .position(CGPoint(x: 60,y: 0))
-                                .frame(width: 100, height: 47)
-                        })
-                        .zIndex(2)
-                        .background(
-                            RoundedRectangle(cornerRadius: 10)
-                                .frame(width: 145, height: 100)
-                                .foregroundColor(Color.clear))
-                        .position(CGPoint(x: 465, y: 450))
-                    
-                    
+                    NavigationLink(destination: KitchenView(), label:{
+                        Text("")
+                            .position(CGPoint(x: 60,y: 0))
+                            .frame(width: 100, height: 47)
+                    })
+                    .zIndex(2)
+                    .background(
+                        RoundedRectangle(cornerRadius: 10)
+                            .frame(width: 145, height: 100)
+                            .foregroundColor(Color.clear))
+                    .position(CGPoint(x: 465, y: 250))
                 }
             }.navigationBarBackButtonHidden(true)
         }.navigationBarBackButtonHidden(true)
