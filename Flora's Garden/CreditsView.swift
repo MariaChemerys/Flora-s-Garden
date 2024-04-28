@@ -11,62 +11,38 @@ struct CreditsView: View {
     var body: some View {
         NavigationView {
             ZStack {
+                
                 // Background image
                 HStack {
                     Image("back_3")
                         .resizable()
                         .frame(width: 920, height: 460)
-                        }
+                }
+                
                 // Toolbar image
                 ZStack {
                     Image("toolbar credits on")
                         .resizable()
                         .zIndex(2)
-                        .padding(10) // Add padding around the image
-                        .position(CGPoint(x: 400, y: 380))
-                        .frame(width: 800, height: 840)
+                        .padding(10)
+                        .position(CGPoint(x: 350, y: -70))
+                        .frame(width: 700, height: 110)
                     
-                    // Navigation links to other views
-                    HStack {
-                        NavigationLink(destination: MainMenuView(), label:{
-                            Text("")
-                                .position(CGPoint(x: 60,y: 0))
-                                .frame(width: 100, height: 47)
-                        })
-                        .background(
-                            RoundedRectangle(cornerRadius: 10)
-                                .frame(width: 90, height: 42)
-                                .foregroundColor(Color.clear))
-                                .position(CGPoint(x: 310, y: 287))
-                        
-                        NavigationLink(destination: GardenView(), label:{
-                            Text("")
-                                .position(CGPoint(x: 60,y: 0))
-                                .frame(width: 100, height: 47)
-                        })
-                        .background(
-                            RoundedRectangle(cornerRadius: 10)
-                                .frame(width: 90, height: 42)
-                                .foregroundColor(Color.clear))
-                                .position(CGPoint(x: 100, y: 287))
-                        
-                        NavigationLink(destination: SettingsView(), label:{
-                            Text("")
-                                .position(CGPoint(x: 60,y: 0))
-                                .frame(width: 100, height: 47)
-                        })
-                        .background(
-                            RoundedRectangle(cornerRadius: 10)
-                                .frame(width: 90, height: 42)
-                                .foregroundColor(Color.clear))
-                                .position(CGPoint(x: -109, y: 287))
-                        
-                    }.zIndex(3)
-                     .contentShape(Rectangle())
+                    // Navigation link to credits view
+                    NavigationLink(destination: MainMenuView(), label:{
+                        Text("")
+                            .position(CGPoint(x: 60,y: 0))
+                            .frame(width: 100, height: 47)
+                    })
+                    .background(
+                        RoundedRectangle(cornerRadius: 10)
+                            .frame(width: 110, height: 50)
+                            .foregroundColor(Color.clear))
+                    .position(CGPoint(x: 402, y: 110))
+                    .zIndex(3)
                 }
             }
         }.navigationBarBackButtonHidden(true)
-        .navigationBarBackButtonHidden(true)
     }
 }
 

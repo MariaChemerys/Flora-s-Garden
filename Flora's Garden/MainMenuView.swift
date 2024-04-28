@@ -22,6 +22,7 @@ struct MainMenuView: View {
                         .resizable()
                         .frame(width: 920, height: 460)
                 }
+                
                 // Toolbar image
                 ZStack {
                     Image("toolbar play on")
