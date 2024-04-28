@@ -15,7 +15,7 @@ struct CreditsView: View {
                 HStack {
                     Image("back_3")
                         .resizable()
-                        .frame(width: 1100, height: 460)
+                        .frame(width: 920, height: 460)
                         }
                 // Toolbar image
                 ZStack {
@@ -37,7 +37,7 @@ struct CreditsView: View {
                             RoundedRectangle(cornerRadius: 10)
                                 .frame(width: 90, height: 42)
                                 .foregroundColor(Color.clear))
-                                .position(CGPoint(x: 401, y: 287))
+                                .position(CGPoint(x: 310, y: 287))
                         
                         NavigationLink(destination: GardenView(), label:{
                             Text("")
@@ -48,7 +48,7 @@ struct CreditsView: View {
                             RoundedRectangle(cornerRadius: 10)
                                 .frame(width: 90, height: 42)
                                 .foregroundColor(Color.clear))
-                                .position(CGPoint(x: 131, y: 287))
+                                .position(CGPoint(x: 100, y: 287))
                         
                         NavigationLink(destination: SettingsView(), label:{
                             Text("")
@@ -59,11 +59,10 @@ struct CreditsView: View {
                             RoundedRectangle(cornerRadius: 10)
                                 .frame(width: 90, height: 42)
                                 .foregroundColor(Color.clear))
-                                .position(CGPoint(x: -138, y: 287))
+                                .position(CGPoint(x: -109, y: 287))
                         
                     }.zIndex(3)
                      .contentShape(Rectangle())
-                    
                 }
             }
         }.navigationBarBackButtonHidden(true)

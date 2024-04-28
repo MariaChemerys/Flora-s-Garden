@@ -14,6 +14,8 @@
 		CC040C622AE1414E00D4D2D6 /* MainMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC040C612AE1414E00D4D2D6 /* MainMenuView.swift */; };
 		CC040C642AE2879C00D4D2D6 /* CreditsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC040C632AE2879C00D4D2D6 /* CreditsView.swift */; };
 		CC040C662AE289AA00D4D2D6 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC040C652AE289AA00D4D2D6 /* SettingsView.swift */; };
+		CC262DDA2AEED86C008F8569 /* kitchenItem Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC262DD92AEED86C008F8569 /* kitchenItem Model.swift */; };
+		CC262DDC2AEED98F008F8569 /* kitchenItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC262DDB2AEED98F008F8569 /* kitchenItemViewModel.swift */; };
 		CCF3632B2AE67C1600362C5D /* KitchenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF3632A2AE67C1600362C5D /* KitchenView.swift */; };
 /* End PBXBuildFile section */
 
@@ -26,6 +28,8 @@
 		CC040C612AE1414E00D4D2D6 /* MainMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuView.swift; sourceTree = "<group>"; };
 		CC040C632AE2879C00D4D2D6 /* CreditsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditsView.swift; sourceTree = "<group>"; };
 		CC040C652AE289AA00D4D2D6 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		CC262DD92AEED86C008F8569 /* kitchenItem Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "kitchenItem Model.swift"; sourceTree = "<group>"; };
+		CC262DDB2AEED98F008F8569 /* kitchenItemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kitchenItemViewModel.swift; sourceTree = "<group>"; };
 		CCF3632A2AE67C1600362C5D /* KitchenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KitchenView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -67,6 +71,8 @@
 				CCF3632A2AE67C1600362C5D /* KitchenView.swift */,
 				CC040C572AE1407700D4D2D6 /* Assets.xcassets */,
 				CC040C592AE1407700D4D2D6 /* Preview Content */,
+				CC262DD92AEED86C008F8569 /* kitchenItem Model.swift */,
+				CC262DDB2AEED98F008F8569 /* kitchenItemViewModel.swift */,
 			);
 			path = "Flora's Garden";
 			sourceTree = "<group>";
@@ -150,9 +156,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				CC040C662AE289AA00D4D2D6 /* SettingsView.swift in Sources */,
+				CC262DDA2AEED86C008F8569 /* kitchenItem Model.swift in Sources */,
 				CC040C622AE1414E00D4D2D6 /* MainMenuView.swift in Sources */,
 				CCF3632B2AE67C1600362C5D /* KitchenView.swift in Sources */,
 				CC040C642AE2879C00D4D2D6 /* CreditsView.swift in Sources */,
+				CC262DDC2AEED98F008F8569 /* kitchenItemViewModel.swift in Sources */,
 				CC040C562AE1407600D4D2D6 /* GardenView.swift in Sources */,
 				CC040C542AE1407600D4D2D6 /* Flora_s_GardenApp.swift in Sources */,
 			);
@@ -294,14 +302,14 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "learning.personal.Flora-s-Garden";
+				PRODUCT_BUNDLE_IDENTIFIER = "learning.personal.Flora-s-Garden-1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -323,14 +331,14 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "learning.personal.Flora-s-Garden";
+				PRODUCT_BUNDLE_IDENTIFIER = "learning.personal.Flora-s-Garden-1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;

@@ -28,7 +28,7 @@ struct SettingsView: View {
                     // Background image
                     Image("back1")
                         .resizable()
-                        .frame(width: 1100, height: 460)
+                        .frame(width: 920, height: 460)
                 }
                 
                 // Volume slider
@@ -42,7 +42,7 @@ struct SettingsView: View {
                 }   .frame(width: 170)
                     .zIndex(4)
                     .rotationEffect(.degrees(-90))
-                    .position(CGPoint(x: 349, y: 515))
+                    .position(CGPoint(x: 249, y: 515))
                 
                 // Language selection buttons
                 VStack {
@@ -61,10 +61,10 @@ struct SettingsView: View {
                             .font(.system(size: 32))
                             .padding(3)
                     }
-                    .background((isLanguageOneTapped && (isLanguageTwoTapped == false)) ? Color("LightBrownHighOpacity") : Color("LightBrownLowOpacity"))
+                    .background((isLanguageOneTapped && (isLanguageTwoTapped == false)) ? Color("LightBrownLowOpacity") : Color("LightBrownLowOpacity"))
                     .cornerRadius(70)
                     .frame(width: 600, height: 70)
-                    .position(CGPoint(x: 630, y: 376))
+                    .position(CGPoint(x: 530, y: 376))
                     
                     Button(action: {
                         self.isLanguageTwoTapped = true
@@ -84,7 +84,7 @@ struct SettingsView: View {
                     .background((isLanguageTwoTapped && (isLanguageOneTapped == false)) ? Color("LightBrownHighOpacity") : Color("LightBrownLowOpacity"))
                     .cornerRadius(70)
                     .frame(width: 600, height: 70)
-                    .position(CGPoint(x: 630, y: 3))
+                    .position(CGPoint(x: 530, y: 3))
                 }.zIndex(4)
                     
                 // Decoration images
@@ -101,21 +101,21 @@ struct SettingsView: View {
                         .frame(width: 1000, height: 910)
                         .aspectRatio(contentMode: .fit)
                         .padding(10)
-                        .position(CGPoint(x: 578, y: 620))
+                        .position(CGPoint(x: 478, y: 620))
                     
                     Image("language decor")
                         .resizable()
                         .frame(width: 250, height: 190)
                          .aspectRatio(contentMode: .fit)
                         .padding(10)
-                        .position(CGPoint(x: 700, y: 580))
+                        .position(CGPoint(x: 600, y: 580))
                     
                     Image("volume bg")
                         .resizable()
                         .frame(width: 160, height: 240)
                         .aspectRatio(contentMode: .fit)
                         .padding(10)
-                        .position(CGPoint(x: 375, y: 510))
+                        .position(CGPoint(x: 275, y: 510))
                     
                     // Navigation Links to other views
                     HStack {
@@ -128,7 +128,7 @@ struct SettingsView: View {
                             RoundedRectangle(cornerRadius: 10)
                                 .frame(width: 90, height: 42)
                                 .foregroundColor(Color.clear))
-                                .position(CGPoint(x: 401, y: 287))
+                                .position(CGPoint(x: 310, y: 287))
                         
                         NavigationLink(destination: GardenView(), label:{
                             Text("")
@@ -139,7 +139,7 @@ struct SettingsView: View {
                             RoundedRectangle(cornerRadius: 10)
                                 .frame(width: 90, height: 42)
                                 .foregroundColor(Color.clear))
-                                .position(CGPoint(x: 131, y: 287))
+                                .position(CGPoint(x: 100, y: 287))
                         
                         NavigationLink(destination: CreditsView(), label:{
                             Text("")
@@ -150,7 +150,7 @@ struct SettingsView: View {
                             RoundedRectangle(cornerRadius: 10)
                                 .frame(width: 90, height: 42)
                                 .foregroundColor(Color.clear))
-                                .position(CGPoint(x: -39, y: 287))
+                                .position(CGPoint(x: -9, y: 287))
                         
                     }.zIndex(3)
                 }
