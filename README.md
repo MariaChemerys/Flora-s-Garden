@@ -26,5 +26,5 @@ happier and greener. By the end of the game, the plant creature is fully covered
 Flora's Garden is a group project. The following people were involved in it:<br>
 • Mariia Chemerys (me) wrote the code.<br>
 • <a href="https://www.instagram.com/_0zymandias?igsh=N2w1MTVxOXJzOHU4">Bruno Paolo Passaro</a> is the digital artist who drew the assets for the game.<br>
-• Emanuele de Rogatis created a Figma prototype.<br>
+• <a href="https://www.instagram.com/wilhoooo?igsh=b283djNnbmczdmls">Emanuele de Rogatis</a> created a Figma prototype.<br>
 • Beniamino Nardone and Francesca de Nicola created a keynote to present Flora's Garden to the audience.
