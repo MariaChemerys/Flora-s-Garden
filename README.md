@@ -1,7 +1,7 @@
 <h1 align="center">Flora's Garden</h1>
 
 <p align="center">
-<img src="" width="200" height="450"/>
+<img src="https://github.com/MariaChemerys/Flora-s-Garden/blob/main/Flora's%20Garden%20GIF.gif" width="450" height="250"/>
 </p>
 
 <h2>Description</h2>
