@@ -9,6 +9,12 @@
 cute plant creature. The goal of the game is to find food and kitchen supplies and to name them both in English and Italian languages. With each new category of items unlocked, Flora becomes
 happier and greener. By the end of the game, the plant creature is fully covered with flowers.
 
+<h2>Screenshots</h2>
+<p align="center">
+<img src="https://github.com/MariaChemerys/Flora-s-Garden/blob/main/Flora's%20Garden%20Screenshot%202.PNG?raw=true" width=auto height="250"/>
+<img src="https://github.com/MariaChemerys/Flora-s-Garden/blob/main/Flora's%20Garden%20Screenshot%201.PNG?raw=true" width=auto height="250"/>
+</p>
+
 <h2>Installation Instructions</h2>
 1. Open Xcode<br>
 2. Click on "Clone Git Repository"<br>
